@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamella Cassia Benevenuto | Currículo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ===== MENU ===== -->
+    <header class="navbar" id="navbar">
+        <a href="#inicio" class="logo">P<span>.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#inicio" class="active"><i class="fa-solid fa-house"></i> Início</a>
+            <a href="#experiencia"><i class="fa-solid fa-briefcase"></i> Experiência</a>
+            <a href="#formacao"><i class="fa-solid fa-graduation-cap"></i> Formação</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle" title="Alternar tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="icon-btn menu-btn" id="menuBtn" title="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== 1. HERO / FOTO + FRASE ===== -->
+        <section class="hero" id="inicio">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+
+            <div class="hero-content">
+                <div class="photo-wrapper reveal">
+                    <div class="photo-ring"></div>
+                    <img src="foto.png" alt="Foto de Pamella" class="photo" id="photo">
+                    <div class="photo-fallback" id="photoFallback">P</div>
+                    <span class="status-badge"><i class="fa-solid fa-circle"></i> Disponível</span>
+                </div>
+
+                <div class="hero-text reveal">
+                    <p class="hello">Olá, eu sou</p>
+                    <h1>Pamella <span class="highlight">Cassia Benevenuto</span></h1>
+                    <h2 class="role">
+                        <span id="typing"></span><span class="cursor">|</span>
+                    </h2>
+
+                    <blockquote class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                        Transformo ideias em código e desafios em oportunidades de aprender.
+                    </blockquote>
+
+                    <div class="contact-list">
+                        <a href="mailto:pamella@yahoo.com.br"><i class="fa-solid fa-envelope"></i> pamella@yahoo.com.br</a>
+                        <a href="tel:+5511963176204"><i class="fa-solid fa-phone"></i> (11) 96317-6204</a>
+                        <span><i class="fa-solid fa-location-dot"></i> São Paulo - SP</span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#experiencia" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Ver experiência</a>
+                        <button class="btn btn-outline" id="printBtn"><i class="fa-solid fa-download"></i> Baixar PDF</button>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#experiencia" class="scroll-down" title="Rolar para baixo">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- ===== 2. EXPERIÊNCIA PROFISSIONAL ===== -->
+        <section class="section" id="experiencia">
+            <div class="section-title reveal">
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Experiência Profissional</h2>
+                <p>Minha trajetória no mercado de trabalho</p>
+            </div>
+
+            <div class="exp-list">
+                <article class="exp-card exp-featured reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="exp-info">
+                            <span class="exp-current"><i class="fa-solid fa-circle"></i> Cargo atual</span>
+                            <h3>Analista Financeiro Sênior</h3>
+                            <h4>Credinfar – Associação dos Profissionais de Crédito e Cobrança das Indústrias Farmacêuticas e Afins</h4>
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 04/2017 - Atual</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Análise e conferência de balanços patrimoniais e demonstrações financeiras, verificando números, contas e consistência das informações.</li>
+                            <li>Acompanhamento do recebimento e inclusão dos balanços na plataforma própria da Credinfar.</li>
+                            <li>Apuração e acompanhamento de índices e indicadores financeiros com base nos balanços recebidos.</li>
+                            <li>Atendimento aos associados para esclarecimento de dúvidas sobre balanços, indicadores e informações financeiras.</li>
+                            <li>Acompanhamento das informações financeiras dos clientes das associadas, incluindo prazos, valores, atrasos, Risk Rating e Performance.</li>
+                            <li>Acompanhamento e orientação das atividades do Analista Financeiro Pleno.</li>
+                            <li>Acompanhamento da premiação anual dos associados.</li>
+                            <li>Participação na homologação de ferramentas e soluções utilizadas pela área, realizando testes e validações antes da utilização.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Evolução na empresa</p>
+                        <ol class="career-path">
+                            <li class="is-current">
+                                <span class="career-role">Analista Financeiro Sênior</span>
+                                <span class="career-date">05/11/2025 - Atual</span>
+                            </li>
+                            <li>
+                                <span class="career-role">Analista Financeiro Pleno</span>
+                                <span class="career-date">06/12/2022 - 04/11/2025</span>
+                            </li>
+                            <li>
+                                <span class="career-role">Assistente Financeiro Júnior</span>
+                                <span class="career-date">02/01/2018 - 05/12/2022</span>
+                            </li>
+                            <li>
+                                <span class="career-role">Estagiária</span>
+                                <span class="career-date">04/2017 - 01/01/2018</span>
+                            </li>
+                        </ol>
+                    </div>
+                </article>
+
+                <p class="exp-divider reveal">Experiências anteriores</p>
+
+                <article class="exp-card reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+                        <div class="exp-info">
+                            <h3>Assistente Financeiro</h3>
+                            <h4>Guaru Limpeza Predial</h4>
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 12/04/2016 - 07/11/2016</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Conciliação bancária, contas a pagar e receber e análise de fluxo de caixa.</li>
+                            <li>Cobrança de inadimplentes, buscando a quitação de débitos mediante negociação e prorrogação de vencimento.</li>
+                            <li>Emissão de boletos e lançamento diário no sistema financeiro Nibo.</li>
+                            <li>Atendimento telefônico e arquivamento de documentos.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>Financeiro</span><span>Fluxo de Caixa</span><span>Cobrança</span><span>Nibo</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="exp-card reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="exp-info">
+                            <h3>Estagiária de Controladoria</h3>
+                            <h4>Edifício Moema Flat Service</h4>
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 03/11/2015 - 11/04/2016</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Conciliação bancária e contábil, contas a pagar e receber e análise de fluxo de caixa.</li>
+                            <li>Lançamento e recolhimento de tributos municipais; análise e emissão de arquivo de notas fiscais.</li>
+                            <li>Cobrança de inadimplentes e controle de vencimentos, com negociação e prorrogação da data de pagamento.</li>
+                            <li>Baixas em títulos, emissão de boletos bancários, atendimento telefônico e ao cliente.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>Controladoria</span><span>Conciliação</span><span>Tributos</span><span>Notas Fiscais</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="exp-card reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-masks-theater"></i></div>
+                        <div class="exp-info">
+                            <h3>Assistente Administrativo</h3>
+                            <h4>Cooperativa Paulista de Teatro</h4>
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 27/05/2013 - 19/05/2015</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Atendimento telefônico e atendimento direto ao cliente.</li>
+                            <li>Verificação de notas e cupons fiscais.</li>
+                            <li>Manuseio de planilhas e arquivamento de documentos.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>Atendimento</span><span>Planilhas</span><span>Organização</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="exp-card reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-store"></i></div>
+                        <div class="exp-info">
+                            <h3>Vendedora de Comércio Varejista</h3>
+                            <h4>Niazi Chohfi Artefatos Têxteis Ltda.</h4>
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 13/01/2011 - 22/12/2012</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Atendimento ao cliente, vendas de produtos e organização de mercadorias.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>Atendimento</span><span>Vendas</span><span>Organização</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="exp-card reveal">
+                    <div class="exp-head">
+                        <div class="exp-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="exp-info">
+                            <h3>Estagiária</h3>
+                            <h4>Niazi Chohfi Artefatos Têxteis Ltda.</h4>
+                            <!-- Quando souber as datas, troque o texto abaixo por: DD/MM/AAAA - DD/MM/AAAA -->
+                            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 6 meses, antes da contratação como Vendedora</span>
+                        </div>
+                    </div>
+
+                    <div class="exp-body">
+                        <p class="exp-label">Principais atividades</p>
+                        <ul class="exp-tasks">
+                            <li>Atendimento ao cliente, vendas de produtos e organização de mercadorias.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>Atendimento</span><span>Vendas</span><span>Organização</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== 3. FORMAÇÃO ===== -->
+        <section class="section section-alt" id="formacao">
+            <div class="section-title reveal">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Formação</h2>
+                <p>Educação e cursos complementares</p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-building-columns"></i></div>
+                    <span class="badge badge-progress">Em andamento</span>
+                    <h3>Pós-graduação Lato Sensu em IA Aplicada aos Negócios</h3>
+                    <h4>Faculdade Anhanguera</h4>
+                    <span class="date"><i class="fa-regular fa-calendar"></i> 2025 - 2027</span>
+                </div>
+
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <span class="badge badge-done">Concluído</span>
+                    <h3>Bacharelado em Ciências Contábeis</h3>
+                    <h4>Universidade Nove de Julho – Vergueiro</h4>
+                    <span class="date"><i class="fa-regular fa-calendar"></i> 2014 - 2017</span>
+                </div>
+
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <span class="badge badge-done">Concluído</span>
+                    <h3>Técnico em Administração Empresarial</h3>
+                    <h4>Etec Carlos de Campos – Extensão Etec Caca</h4>
+                    <span class="date"><i class="fa-regular fa-calendar"></i> 2012 - 2013</span>
+                </div>
+
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <span class="badge badge-progress">Em andamento</span>
+                    <h3>Cursos Complementares</h3>
+                    <h4>Alura · Udemy · Curso em Vídeo</h4>
+                    <ul class="mini-list">
+                        <li><i class="fa-solid fa-check"></i> JavaScript Moderno</li>
+                        <li><i class="fa-solid fa-check"></i> Git e GitHub</li>
+                        <li><i class="fa-solid fa-check"></i> Lógica de Programação</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="socials">
+            <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:pamella@yahoo.com.br" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Feito com <i class="fa-solid fa-heart"></i> por Pamella Cassia Benevenuto &copy; <span id="year"></span></p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
